@@ -81,7 +81,7 @@ for t = 1:size(d_skeleton,3)
 end
 
 %% Save the animation
-animation = VideoWriter('C:\Users\karen\Documents\gesture_research\Skeleton\skeleton_animation.mp4', 'MPEG-4');
+animation = VideoWriter('C:\Users\karen\Documents\gesture_research\gesture_research_repo\code\skeleton_animation.mp4', 'MPEG-4');
 animation.FrameRate = 10;
 
 % Open the VideoWriter object, write the movie, and close the file
